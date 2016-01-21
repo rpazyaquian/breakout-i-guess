@@ -18,12 +18,12 @@ public class Ball {
         this.texture = new TextureRegion(new Texture("sprites/ball.png"));
         this.position = new Position(320, 240);
         this.size = new Size(32, 32);
-        this.velocity = new Velocity(100, 100);
+        this.velocity = new Velocity(2, 2);
     }
 
     public void updatePosition(float delta) {
-        position.x += velocity.vx * delta;
-        position.y += velocity.vy * delta;
+        position.x += velocity.vx;
+        position.y += velocity.vy;
 
         // TODO: handle moving past boundary
 

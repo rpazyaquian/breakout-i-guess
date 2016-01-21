@@ -5,10 +5,10 @@ package com.retrocombine.breakout;
  */
 public class Size {
 
-    public int w;
-    public int h;
+    public float w;
+    public float h;
 
-    public Size(int w, int h) {
+    public Size(float w, float h) {
         this.w = w;
         this.h = h;
     }

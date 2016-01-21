@@ -5,10 +5,10 @@ package com.retrocombine.breakout;
  */
 public class Velocity {
 
-    public int vx;
-    public int vy;
+    public float vx;
+    public float vy;
 
-    public Velocity(int vx, int vy) {
+    public Velocity(float vx, float vy) {
         this.vx = vx;
         this.vy = vy;
     }
